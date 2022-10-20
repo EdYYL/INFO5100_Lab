@@ -13,14 +13,41 @@ public class student {
         percentage = a3;
     }//constructor
 
-    public void calWeightedPoint() {
-        for (int i = 0; i < earnedPoint.length; i++){
-            weightedPoint += (earnedPoint[i]/pointTotal[i]) * percentage[i];
-        }
+    public double[] getEarnedPoint() {
+        return earnedPoint;
+    }
+
+    public double[] getPercentage() {
+        return percentage;
+    }
+
+    public double[] getPointTotal() {
+        return pointTotal;
     }
 
     public double getWeightedPoint() {
         return weightedPoint;
     }
 
+    public void setPercentage(double[] percentage) {
+        this.percentage = percentage;
+    }
+
+    public void setEarnedPoint(double[] earnedPoint) {
+        this.earnedPoint = earnedPoint;
+    }
+
+    public void setPointTotal(double[] pointTotal) {
+        this.pointTotal = pointTotal;
+    }
+
+    public void setWeightedPoint(double weightedPoint) {
+        this.weightedPoint = weightedPoint;
+    }
+
+    public void calWeightedPoint() {
+        for (int i = 0; i < earnedPoint.length; i++){
+            weightedPoint += (earnedPoint[i]/pointTotal[i]) * percentage[i];
+        }
+    }
 }
