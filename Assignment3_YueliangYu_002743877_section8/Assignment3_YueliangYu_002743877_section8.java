@@ -1,4 +1,5 @@
 package Assignment3_YueliangYu_002743877_section8;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Assignment3_YueliangYu_002743877_section8 {
@@ -34,6 +35,7 @@ public class Assignment3_YueliangYu_002743877_section8 {
         else if (totalGrade >= 60) System.out.println("which is an \"D\"");
         else System.out.println("which is an \"F\"");
     }
+
 }
 
 /*

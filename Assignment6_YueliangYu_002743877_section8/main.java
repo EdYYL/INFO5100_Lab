@@ -10,7 +10,7 @@ public class main {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("Main");// Setting the width and height of frame
-        frame.setSize(450, 200);
+        frame.setSize(545, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel panel = new JPanel();//create panel
         frame.add(panel);//add panel

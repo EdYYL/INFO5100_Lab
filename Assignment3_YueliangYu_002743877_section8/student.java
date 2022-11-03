@@ -1,4 +1,6 @@
 package Assignment3_YueliangYu_002743877_section8;
+import java.util.LinkedList;
+import java.util.Scanner;
 
 public class student {
     private double[] earnedPoint;
@@ -22,4 +24,6 @@ public class student {
     public double getWeightedPoint() {
         return weightedPoint;
     }
+
 }
+
