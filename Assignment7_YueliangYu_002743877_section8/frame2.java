@@ -10,7 +10,7 @@ public class frame2 extends JFrame {
     public static void placeComponents(JPanel panel) {
 
         panel.setLayout(null);
-        // create JLabel
+        // create JLabel，JTextField, JButton, JTextArea
         JLabel label1 = new JLabel("Reading file name: ");
         //JTextField textField1 = new JTextField("/Users/yuyueliang/IdeaProjects/INFO5100_Lab/Assignment7_YueliangYu_002743877_section8/annual.csv");
         JTextField textField1 = new JTextField("Assignment7_YueliangYu_002743877_section8/annual.csv");
@@ -47,7 +47,7 @@ public class frame2 extends JFrame {
         textArea1.setBounds(10, 130, 500, 100);
         panel.add(textArea1);
 
-
+        // create JLabel，JTextField, JButton, JTextArea
         JLabel label3 = new JLabel("File name to write: ");
         //JTextField textField1 = new JTextField("/Users/yuyueliang/IdeaProjects/INFO5100_Lab/Assignment7_YueliangYu_002743877_section8/annual.csv");
         JTextField textField2 = new JTextField("user input");
